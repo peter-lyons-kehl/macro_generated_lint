@@ -25,6 +25,6 @@
 pub mod expect;
 
 pub fn f() {
-    #[cfg(feature = "verify-on-nightly")]
-    expect::only_unsafe!(true)
+    //#[cfg(feature = "verify-on-nightly")]
+    //expect::only_unsafe!(true)
 }
