@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-producer = { path = "../producer", version = "0.*" }
+producer = { path = "../producer", version = "0.*", features = ["verify-on-nightly"] }

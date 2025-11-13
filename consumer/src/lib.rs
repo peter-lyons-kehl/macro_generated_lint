@@ -1,5 +1,5 @@
-use producer::generate_unused_unsafe;
+use producer::expect;
 
 pub fn f() {
-    generate_unused_unsafe!(true)
+    generate::unused_unsafe!(true)
 }
